@@ -1,0 +1,95 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* Background */
+body {
+    min-height: 100vh;
+    background: url("../images/4.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card container */
+.container {
+    width: 1000px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    border: 2px solid #000;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Heading */
+.container h2 {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+/* Table header & data */
+th, td {
+    padding: 12px;
+    border: 2px solid #000;
+    text-align: center;
+    color: #000;
+}
+
+/* Table header */
+th {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/* Row hover */
+tr:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+/* Back link */
+.container a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+/* Actions column */
+.action-col {
+    width: 90px;
+    white-space: nowrap;
+}
+
+/* Buttons */
+.btn {
+    padding: 6px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.btn.edit {
+    color: black;
+}
+
+.btn.delete {
+    color: red;
+    border-color: red;
+}
